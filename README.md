@@ -2,6 +2,9 @@
 
 This android-based RecipeApp is a mobile application designed to provide users with access to a vast collection of recipes using the Spoonacular API. The app aims to offer a seamless experience for discovering, exploring, and saving recipes.
 
+![recipeAPPscreenshot](https://github.com/Aditya1409/RecipeApp/assets/63818865/9db27a1f-ec4a-4246-8d59-8de91697a4a0)
+
+
 ### <ins>API Integration</ins>
 The RecipeApp leverages the Spoonacular API, following the principles of Representational State Transfer (REST) to interact with a rich database of recipes. REST,  a standard architectural style for web services, emphasizes a stateless client-server communication model using HTTP methods.
 
