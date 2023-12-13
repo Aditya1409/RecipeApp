@@ -21,7 +21,7 @@ During development, Postman was key in testing API endpoints and verifying respo
 - Spoonacular API: https://spoonacular.com/food-api
 - Json2Pojo: https://json2csharp.com/json-to-pojo
 - Retrofit: https://github.com/square/retrofit
-- GSON for Retrofit: https://github.com/square/retrofit/tr...
+- GSON for Retrofit: https://github.com/square/retrofit/tree/master/retrofit-converters/gson
 - Picasso: https://github.com/square/picasso
 - Postman: https://www.postman.com/downloads/
 - Json2Csharp: https://json2csharp.com/json-to-pojo
