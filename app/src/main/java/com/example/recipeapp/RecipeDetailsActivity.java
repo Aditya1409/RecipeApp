@@ -1,12 +1,14 @@
 package com.example.recipeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.text.HtmlCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -70,7 +72,7 @@ public class RecipeDetailsActivity extends AppCompatActivity {
             dialog.dismiss();
             textView_meal_name.setText(response.title);
             textView_meal_source.setText(response.sourceName);
-            textView_meal_summary.setText(response.summary);
+            textView_meal_summary.setText(HtmlCompat.fromHtml(response.summary, HtmlCompat.FROM_HTML_MODE_LEGACY));
             Picasso.get().load(response.image).into(imageView_meal_image);
 
             recyclerView_meal_ingredients.setHasFixedSize(true);
